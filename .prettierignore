@@ -1,0 +1,11 @@
+node_modules
+package.json
+public/charting-library
+coverage/
+.yarn
+.next
+.nyc_output
+.pnp.cjs
+.pnp.loader.mjs
+cypress/reports
+resources/

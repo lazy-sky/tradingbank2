@@ -1,0 +1,55 @@
+@import 'styles/constants/breakpoints.module';
+
+@mixin small {
+  @media (max-width: #{$breakpoint_small - 1px}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (max-width: #{$breakpoint_medium - 1px}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (max-width: #{$breakpoint_large - 1px}) {
+    @content;
+  }
+}
+
+@mixin xlarge {
+  @media (max-width: #{$breakpoint_xlarge - 1px}) {
+    @content;
+  }
+}
+
+@mixin xxlarge {
+  @media (max-width: #{$breakpoint_xxlarge - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$breakpoint_mobile - 1px}) {
+    @content;
+  }
+}
+
+@mixin notMobile {
+  @media (min-width: #{$breakpoint_mobile - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$breakpoint_desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin notDesktop {
+  @media (max-width: #{$breakpoint_desktop - 1px}) {
+    @content;
+  }
+}

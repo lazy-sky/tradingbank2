@@ -1,0 +1,62 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-recess-order"
+  ],
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss"
+    }
+  ],
+  "plugins": ["stylelint-declaration-strict-value"],
+  "rules": {
+    "order/order": ["custom-properties", "declarations"],
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "ignore": ["inside-block"],
+        "ignoreAtRules": ["import"]
+      }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "mixin",
+          "include",
+          "charset",
+          "function",
+          "for",
+          "each",
+          "if",
+          "else",
+          "error",
+          "warn",
+          "return",
+          "extend"
+        ]
+      }
+    ],
+    "color-hex-length": "long",
+    "color-function-notation": "legacy",
+    "value-keyword-case": null,
+    "declaration-empty-line-before": "never",
+    "no-descending-specificity": null,
+    "selector-class-pattern": "^[a-z](|[a-zA-Z0-9]+)$",
+    "scale-unlimited/declaration-strict-value": [
+      ["color", "background-color"],
+      {
+        "ignoreValues": ["inherit", "initial"]
+      }
+    ],
+    "scss/dollar-variable-pattern": [
+      "^[a-zA-Z](|[a-zA-Z0-9_]+)$",
+      {
+        "ignore": "local"
+      }
+    ],
+    "scss/at-mixin-pattern": "^[a-zA-Z](|[a-zA-Z0-9_]+)$",
+    "scss/at-extend-no-missing-placeholder": null
+  }
+}

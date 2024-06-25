@@ -1,0 +1,74 @@
+/* stylelint-disable property-no-unknown */
+
+// Primary
+$Primary10: #001a1e;
+$Primary20: #013f43;
+$Primary30: #008791;
+$Primary40: #00b4c1;
+$Primary50: #00e1f1;
+$Primary60: #3de8f5;
+$Primary70: #66edf7;
+$Primary80: #99f3f9;
+$Primary90: #ccf9fc;
+
+// Secondary
+$Secondary10: #2e0d16;
+$Secondary20: #58192b;
+$Secondary30: #972b49;
+$Secondary40: #ca3962;
+$Secondary50: #fc477a;
+$Secondary60: #fd6c95;
+$Secondary70: #ff94b4;
+$Secondary80: #feb5ca;
+$Secondary90: #fedae4;
+
+// Error
+$Error10: #4b220b;
+$Error20: #7d3812;
+$Error30: #964416;
+$Error40: #c85a1d;
+$Error50: #fa7124;
+$Error60: #fb8d50;
+$Error70: #fcaa7c;
+$Error80: #fdc6a7;
+$Error90: #fee3d3;
+
+// Neutral
+$Neutral10: #121214; // 기존 BG0
+$Neutral20: #161a1d; // 기존 BG1, 1_2
+$Neutral30: #1d2125; // 기존 BG2
+$Neutral40: #282e33; // 기존 BG3
+$Neutral50: #38414a; // 기존 BG4, 5
+$Neutral60: #596773;
+$Neutral70: #738496;
+$Neutral80: #9fadbc;
+$Neutral90: #c7d1db;
+$White: #ffffff;
+$Black: #000000;
+
+// Chart
+$ChartRed: #f23645;
+$ChartBlue: #4285f4;
+
+// Modal
+$IntervieweeRecruitModalBG: #463be3;
+
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+:export {
+  black: $Black;
+  white: $White;
+  n10: $Neutral10;
+  n20: $Neutral20;
+  n30: $Neutral30;
+  n50: $Neutral50;
+  n70: $Neutral70;
+  n90: $Neutral90;
+  p20: $Primary20;
+  p30: $Primary30;
+  p50: $Primary50;
+  s10: $Secondary10;
+  s50: $Secondary50;
+  s70: $Secondary70;
+  chartRed: $ChartRed;
+  chartBlue: $ChartBlue;
+}

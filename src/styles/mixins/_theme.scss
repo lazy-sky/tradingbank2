@@ -1,0 +1,57 @@
+@import 'styles/constants/colors.module';
+@import 'styles/mixins/textStyle';
+
+@mixin Primary1 {
+  color: $Primary10;
+  background-color: $Primary50;
+}
+
+@mixin Primary2 {
+  color: $Primary80;
+  background-color: $Primary10;
+}
+
+@mixin Primary3 {
+  color: $Primary50;
+  background-color: $Neutral20;
+}
+
+@mixin Secondary1 {
+  color: $Secondary10;
+  background-color: $Secondary50;
+}
+
+@mixin Secondary2 {
+  color: $Secondary70;
+  background-color: $Secondary10;
+}
+
+@mixin Secondary3 {
+  color: $Secondary70;
+  background-color: $Neutral20;
+}
+
+@mixin Neutral1 {
+  color: $Neutral10;
+  background-color: $Neutral90;
+}
+
+@mixin Neutral2 {
+  color: $Neutral90;
+  background-color: $Neutral20;
+}
+
+@mixin Neutral3 {
+  color: $Neutral90;
+  background-color: $Neutral30;
+}
+
+@mixin Neutral4 {
+  color: $Neutral90;
+  background-color: $Neutral40;
+}
+
+@mixin Neutral5 {
+  color: $Neutral90;
+  background-color: $Neutral10;
+}
