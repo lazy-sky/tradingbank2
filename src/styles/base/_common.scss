@@ -1,5 +1,5 @@
-@import 'styles/constants/colors.module';
-@import 'styles/mixins/textStyle';
+@import '@/styles/constants/colors.module';
+@import '@/styles/mixins/textStyle';
 
 .separator {
   border: 0.5px solid rgba($White, 20%);

@@ -1,4 +1,4 @@
-@import 'styles/constants/breakpoints.module';
+@import '@/styles/constants/breakpoints.module';
 
 @mixin small {
   @media (max-width: #{$breakpoint_small - 1px}) {
